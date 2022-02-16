@@ -4,7 +4,7 @@ youtube-dl.exe is required, and can be found at https://github.com/ytdl-org/yout
 Works on windows, currently does not work on Linux.
 Currently unfinished.
 
-#Dependencies
+# Dependencies
 You will need python3 installed to run the script. Which version of python3 you have shouldn't matter but this was written for python3.9
 youtube-dl.exe is required and can be found here https://github.com/ytdl-org/youtube-dl/releases
 The program uses the python modules "os", "subprocess", and "time". These are included with python normally and should not need to be installed.
