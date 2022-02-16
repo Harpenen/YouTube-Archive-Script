@@ -19,5 +19,5 @@ The script will download the video to youtubearchive.py's directory in \videos\C
 All subtitles for the video, the video's thumbnail, and the video's metadata will also be downloaded.
 
 # Errors
-If you get a "HTTP Error: Forrbiden" type error, just wait a minute or so and try again.
+If you get a "HTTP Error 403: Forbidden" type error, just wait a minute or so and try again.
 If you get "The uploader has not made this video available in your country", the video is blocked in your country, and you should try using a VPN. If you know of a better way to bypass geo-restrictions please let me know.
