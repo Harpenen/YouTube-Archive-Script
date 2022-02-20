@@ -17,7 +17,7 @@ Get youtube-dl.exe from https://github.com/ytdl-org/youtube-dl/releases and plac
 (RECOMMENDED) Get FFmpeg from https://www.gyan.dev/ffmpeg/builds/ or https://github.com/BtbN/FFmpeg-Builds/releases and move ffnpeg.exe from the bin folder to the same folder as youtubearchive.py.
 Open youtubearchive.py with a text editor and change the iden variable to the video's ID. Make sure to save (Ctrl+S).
 Run youtubearchive.py, make sure you have .py files set to open with the python interpreter.
-The script will download the video to youtubearchive.py's directory in \videos\CHANNELID\VIDEOID\ .
+The script will download the video to youtubearchive.py's directory in \youtube\CHANNELID\VIDEOID\ .
 All subtitles for the video, the video's thumbnail, and the video's metadata will also be downloaded.
 
 # Errors
