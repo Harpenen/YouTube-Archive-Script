@@ -15,6 +15,7 @@ MAKE SURE YOU HAVE ENOUGH DISK SPACE IF YOU ARE DOWNLOADING LONG AND/OR MANY VID
 Download youtubearchive.py and place it in an isolated folder.
 Get youtube-dl.exe from https://github.com/ytdl-org/youtube-dl/releases and place it in the same folder as youtubearchive.py.
 (RECOMMENDED) Get FFmpeg from https://www.gyan.dev/ffmpeg/builds/ or https://github.com/BtbN/FFmpeg-Builds/releases and move ffnpeg.exe from the bin folder to the same folder as youtubearchive.py.
+Create a folder named "logs" in the same folder as youtubearchive.py. Logs will named with unix time.
 Open youtubearchive.py with a text editor and change the iden variable to the video's ID. Make sure to save (Ctrl+S).
 Run youtubearchive.py, make sure you have .py files set to open with the python interpreter.
 The script will download the video to youtubearchive.py's directory in \youtube\CHANNELID\VIDEOID\ .
