@@ -3,12 +3,12 @@ from time import sleep #allows the program to wait before closing
 import os #allows me to grab the current directory, among many other functions
 
 direc=(os.path.dirname(__file__)+"\\") #grabs the directory of the current script
-oop=('-o "'+direc+"videos\\%(channel_id)s\\%(id)s\\%(title)s.%(ext)s"+'" ') #ensures the video will be properly named and saved in the correct location
-oper=("-i --all-subs --write-thumbnail --write-info-json ") #other paramaters that download more of the video's data
+oop=('-o "'+direc+"youtube\\%(channel_id)s\\%(id)s\\%(title)s.%(ext)s"+'" ') #ensures the video will be properly named and saved in the correct location
+oper=("-i -w --all-subs --write-thumbnail --write-info-json --audio-quality 0 -f bestvideo+bestaudio/best ") #other paramaters that download more of the video's data
 
 iden="" #enter the video or playlist ID to be downloaded here, example "dQw4w9WgXcQ"
 
-cmd=(direc+"youtube-dl.exe "+oop+oper+iden) #creates the command that will download the video
+cmd=(direc+"youtube-dl.exe "+oop+oper+'"'+iden+'"') #creates the command that will download the video
 print(cmd) #prints the command in the python terminal
 
 subprocess.call(cmd,shell=True) #runs the command, downloading the selected video
