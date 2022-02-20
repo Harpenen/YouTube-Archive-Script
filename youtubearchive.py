@@ -10,7 +10,7 @@ iden="" #enter the video or playlist ID to be downloaded here, example "dQw4w9Wg
 
 now=str(int(time.time())) #grabs the time in unix time
 logs=(direc+"logs\\"+now+".log") #creates the location to place the log file, and how to name the log file
-l=" | tee "+logs+" -a" #placed at the end of the command to ensure output is saved to console and file
+l=" 2>&1 | tee "+logs+" -a" #placed at the end of the command to ensure output is saved to console and file
 
 cmd=(direc+"youtube-dl.exe "+oop+oper+'"'+iden+'"'+l) #creates the command that will download the video
 
