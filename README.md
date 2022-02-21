@@ -9,6 +9,7 @@ You will need python3 installed to run the script. Which version of python3 you 
 youtube-dl.exe is required and can be found here https://github.com/ytdl-org/youtube-dl/releases .
 ffmpeg isn't needed, but is recommended. without it the video may end up looking like sh**. it can be found here https://www.ffmpeg.org/download.html#releases .
 The program uses the python modules "os", "subprocess", and "time". These are included with python normally and should not need to be installed.
+I dont remember installing GNU Coreutils, but apparently I did, and it's needed for logging with "tee". Download it here https://www.gnu.org/software/coreutils/#download while I find a fix.
 
 # Use Instructions
 MAKE SURE YOU HAVE ENOUGH DISK SPACE IF YOU ARE DOWNLOADING LONG AND/OR MANY VIDEOS!!
